@@ -7,11 +7,10 @@ const greeting = {
     padding: '30px'
 }
 let greetingText = '';
-// let currTime = new Date();
-let currTime = new Date(2020, 8, 21, 3);
+let currTime = new Date();
+// let currTime = new Date(2020, 8, 21, 20);
 currTime = currTime.getHours();
-
-
+console.log(currTime);
 const cssStyle = {
 };
 if (currTime >= 1 && currTime < 12) {

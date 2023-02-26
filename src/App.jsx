@@ -14,7 +14,7 @@ import Sdata from './componets/lesson2/Sdata';
 // console.log(Sdata[0].sname);
 
 // function ncard(val) {
-//   //   console.log(val);
+//     console.log(val);
 //   return (
 //     <Card
 //       imgsrc={val.imgsrc}
@@ -51,28 +51,28 @@ import Netflix from './componets/lesson2/Netflix';
 // };
 
 // with ternary Operator
-const favSeries = 'webserise';
+// const favSeries = 'webserise';
 
-const FavS = () => (favSeries === 'netflix' ? <Netflix /> : <Webseries />);
+// const FavS = () => (favSeries === 'netflix' ? <Netflix /> : <Webseries />);
 
 function App() {
   return (
     <>
       {/* Lessons 1  */}
 
-      {/* <Heading />
-      <Gretting />
-      <Text />
-      <Text1 />
-      <ul>
+      {/* <Heading /> */}
+      {/* <Gretting /> */}
+      {/* <Text /> */}
+      {/* <Text1 /> */}
+      {/* <ul>
         <li>My favroute program is {favProg}</li>
-      </ul>
-      <Calculator /> */}
+      </ul> */}
+      {/* <Calculator /> */}
 
       {/* lesson 2 */}
       <h1>List Of top 5 Netflix and Web series in 2020</h1>
-      <div className="cards">
-        {/* <Card
+      {/* <div className="cards">
+        <Card
           imgsrc="https://www.tjtoday.org/wp-content/uploads/2018/02/c245fb206fecea20e4f18e26dc8fa74aae6f80b5.jpg"
           title="A Netflix Original Series"
           sname="DARK"
@@ -130,8 +130,7 @@ function App() {
             />
           );
         })} */}
-        <FavS />
-      </div>
+        {/* <FavS /> */}
     </>
   );
 }
